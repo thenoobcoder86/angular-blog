@@ -1,7 +1,7 @@
 <div class="container__big-card">
     <div class="big-card__photo">
         <img 
-          src="https://ucarecdn.com/8d818247-7299-441a-a601-c1921196f6fc/-/resize/x400/-/sharp/10/"
+          src="{{ photoCover }}"
           alt=""
           height="200px"           
           srcset=""
@@ -9,13 +9,13 @@
     </div>
 
     <div class="big-card__title">
-        <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+        <h1><a href="#">{{ cardTitle }}</a></h1>
     </div>
 
     <div class="big-card__description">
         <p>
           <a href="#">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lacus eleifend, mollis ex et, cursus tellus. Praesent et mi justo. Nam in ex vel mauris luctus rhoncus. Vestibulum mattis lacinia porta.
+            {{ cardDescription }}
           </a>
         <p>
     </div>
